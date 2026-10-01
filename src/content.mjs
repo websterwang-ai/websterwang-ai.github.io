@@ -10,7 +10,7 @@ export const site = {
       contact: "Contact",
       explore: "Explore the work",
       heroEyebrow: "WEBSTER WANG / PERSONAL PORTFOLIO",
-      heroTitle: "Ideas into <em>useful things.</em>",
+      heroTitle: "I dream. I build. <em>I ship.</em>",
       heroLead:
         "I build tools for learning, life sciences, personal finance, and teams of AI agents.",
       heroAside: "Curiosity is the common thread.",
@@ -56,7 +56,7 @@ export const site = {
       contact: "联系",
       explore: "浏览作品",
       heroEyebrow: "WEBSTER WANG / 个人作品集",
-      heroTitle: "把想法<em>做成能用的东西。</em>",
+      heroTitle: "敢想。敢做。<em>做出来。</em>",
       heroLead: "我做学习工具、临床研究工具，也在折腾股票研究和 AI 智能体。",
       heroAside: "想到新点子，就想动手试试。",
       artLearn: "学习",
@@ -230,34 +230,34 @@ export const site = {
       ],
       en: {
         title: "GradChoice",
-        line: "A clearer view of the people behind the programs.",
+        line: "Know the mentor, not just the program.",
         summary:
-          "GradChoice is a free platform for anonymous graduate supervisor reviews at Chinese universities. Since launching in Q2 2026, it has welcomed more than 50,000 visitors. Its aim is to help students make a consequential academic choice with more information and room for honest experiences.",
+          "GradChoice is a free platform for anonymous reviews of graduate supervisors across programs worldwide. Students can share more than a score: mentoring, working conditions, research support, stipends, and academic ethics. Since launching in Q2 2026, the site has welcomed more than 50,000 visitors. The aim is to help future students choose with fuller information and protect their academic growth and well-being.",
         purpose:
-          "The relationship with a graduate supervisor shapes years of research and daily life. GradChoice creates a place where students can learn from the experiences of others before making that choice.",
+          "A supervisor shapes years of research and daily life. GradChoice gives students a place to learn about the whole experience of working with one before committing to a program.",
         highlights: [
-          "Anonymous, student-contributed perspectives",
-          "Free access to supervisor information",
-          "Open source code and a transparent mission",
+          "Anonymous accounts of the full graduate experience",
+          "Reviews covering mentoring, well-being, resources, stipends, and ethics",
+          "Free access, with source code open for public scrutiny",
         ],
         involvement:
-          "Explore supervisors, share a thoughtful review of your own experience, or contribute to the open source project.",
+          "Look up a supervisor, share a thoughtful account of your experience, or help improve the open source platform.",
         alt: "GradChoice homepage with supervisor search and platform mission",
       },
       zh: {
         title: "研选 GradChoice",
-        line: "选导师，先听听过来人的话。",
+        line: "选导师，别只看研究方向。",
         summary:
-          "研选 GradChoice 是一个免费的研究生导师匿名评价平台，聚焦中国高校。自 2026 年第二季度上线以来，已有超过 5 万人访问。它让学生有地方了解前人的真实经历，选导师也不用只靠打听。",
+          "研选 GradChoice 是一个面向全球研究生项目的免费导师匿名评价平台。这里不只给导师打分，也能聊指导方式、工作强度、科研资源、津贴和学术规范。自 2026 年第二季度上线以来，网站已有超过 5 万人访问。希望后来的人选导师时多些依据，读研少踩些坑。",
         purpose:
-          "读研几年跟谁做研究，影响很大。研选希望让学生在决定前，多看看其他人的亲身经历。",
+          "读研不只是选课题。导师怎么带学生、实验室是什么氛围、科研和生活能不能兼顾，都可能影响接下来的几年。研选希望让这些不容易打听到的经历有地方被认真分享。",
         highlights: [
-          "学生匿名分享的导师评价",
-          "免费查询导师信息",
-          "网站代码开源",
+          "匿名分享完整的读研经历",
+          "从指导、工作强度到资源、津贴和学术规范，都能聊",
+          "免费使用，代码开源",
         ],
         involvement:
-          "可以查导师、写下自己的经历，也可以到 GitHub 一起改进网站。",
+          "可以查导师，也可以匿名写下自己的经历；如果想帮忙完善平台，欢迎到 GitHub 看看。",
         alt: "研选首页，展示导师搜索与平台理念",
       },
     },
@@ -288,13 +288,13 @@ export const site = {
       ],
       en: {
         title: "Tap to Learn",
-        line: "Turn everyday reading into vocabulary practice.",
+        line: "Read it on screen. Learn it on the spot.",
         summary:
-          "Tap to Learn lets Android users look up words while reading across apps, then revisit them through saved vocabulary, flashcards, and quizzes. Since its Q2 2026 launch, it has approached 500 downloads from users in more than 20 countries. The goal is to make language practice part of reading itself.",
+          "Tap to Learn lets Android users look up words while reading across apps. When a screen will not let you select text, OCR can read the words for you. Save what you find, then revisit it with flashcards and quizzes. Since its Q2 2026 launch, the app has approached 500 downloads from users in more than 20 countries.",
         purpose:
           "New words appear during the things we already read. Tap to Learn lets that moment of curiosity become a useful lookup and a future review opportunity.",
         highlights: [
-          "Look up words across supported Android screens",
+          "Use OCR to read words even when on-screen text cannot be selected",
           "Save vocabulary for flashcards and quizzes",
           "Learn in the context of everyday reading",
         ],
@@ -304,13 +304,13 @@ export const site = {
       },
       zh: {
         title: "Tap to Learn",
-        line: "读到生词，点一下就能学。",
+        line: "屏幕上的生词，选不中也能查。",
         summary:
-          "Tap to Learn 是一款 Android 查词与背词工具。在不同应用里读到生词，可以随手查、存进生词本，再用卡片和小测复习。自 2026 年第二季度上线以来，下载量接近 500 次，用户来自 20 多个国家。",
+          "Tap to Learn 是一款 Android 查词与背词工具。在别的应用里读到生词，可以随手查；遇到无法选中文字的页面，还能用 OCR 识别屏幕上的词。查过的词可以存进生词本，用卡片和小测复习。自 2026 年第二季度上线以来，下载量接近 500 次，用户来自 20 多个国家。",
         purpose:
           "生词往往是在读东西时碰到的。Tap to Learn 想让查词和复习接在一起，不用为了记一个词专门切换学习场景。",
         highlights: [
-          "在支持的 Android 页面里查词",
+          "文字选不中时，也能用 OCR 识别屏幕上的词",
           "生词本、记忆卡片和小测",
           "边读边学，不脱离原来的语境",
         ],
@@ -405,15 +405,15 @@ export const site = {
       ],
       en: {
         title: "DiffusionAtlas",
-        line: "Start with one idea. Grow a map of what comes next.",
+        line: "One idea. A map that knows where to grow.",
         summary:
-          "DiffusionAtlas starts with a single concept and grows into a navigable knowledge graph as the learner explores. Its 2D and 3D views show relationships, prerequisites, and promising next concepts while keeping the starting map small. An online version is planned; visitors can contact me for availability and updates.",
+          "DiffusionAtlas begins with one concept and grows a knowledge graph as you explore. Graph theory keeps relationships and prerequisites in view; diffusion mapping gives related ideas a spatial home; personalized PageRank helps suggest what to study next. The map stays small at first, then opens up in 2D or 3D. An online version is planned.",
         purpose:
           "A useful learning map should reveal just enough to guide the next step. DiffusionAtlas grows with the learner's exploration while keeping relationships and prerequisites visible.",
         highlights: [
-          "Begin with one familiar concept",
-          "Explore typed links between related ideas",
-          "See suggested next concepts in 2D or 3D",
+          "Grow a graph from one familiar concept",
+          "Use diffusion mapping to explore related ideas in 3D",
+          "Find the next concept with personalized PageRank and prerequisite checks",
         ],
         involvement:
           "Contact me about access or share a subject area where a growing knowledge map would help you learn.",
@@ -421,15 +421,15 @@ export const site = {
       },
       zh: {
         title: "DiffusionAtlas",
-        line: "从一个概念开始，越学越成图。",
+        line: "从一个概念出发，让知识慢慢连成图。",
         summary:
-          "DiffusionAtlas 从你熟悉的一个概念起步。点开感兴趣的方向，知识图谱才继续展开，逐步呈现概念之间的关系、预备知识和可能的下一步。它有二维和三维视图，网页版还在筹备中。",
+          "DiffusionAtlas 从一个概念起步，随着你的探索长成知识图谱。它用图论梳理概念关系和前置知识，用扩散映射把相关概念摆进三维空间，再用个性化 PageRank 帮你寻找下一步。起初只给你一小张图，想往哪学，再往哪展开；也可以切到二维视图。网页版还在筹备中。",
         purpose:
           "一开始就铺满屏幕的知识点，很容易让人迷路。这张图会跟着你的探索慢慢展开，同时保留概念之间的联系，方便决定下一步学什么。",
         highlights: [
-          "从熟悉的概念开始，不用先看一整张大图",
-          "点开概念，查看它与其他知识的关系",
-          "在二维或三维视图里寻找下一步",
+          "从熟悉的概念开始，边学边扩展",
+          "用扩散映射看清相关知识在三维空间里的位置",
+          "结合前置知识和个性化 PageRank 推荐下一步",
         ],
         involvement:
           "想了解试用方式，或者有特别想学的领域，都可以给我写邮件。",
@@ -511,8 +511,8 @@ export const site = {
       },
       actions: [
         {
-          en: "Join project updates",
-          zh: "订阅项目进展",
+          en: "Join free stock updates",
+          zh: "免费订阅股票更新",
           url: "mailto:websterwangai@gmail.com?subject=US%20StockSelector%20updates",
           primary: true,
         },
@@ -521,7 +521,7 @@ export const site = {
         title: "US StockSelector",
         line: "US equity research with the evidence in view.",
         summary:
-          "US StockSelector combines public company data, valuation, quality, momentum, and market context into a daily research dashboard. It presents ranked candidates alongside data quality and investability checks so each result can be examined in context. Email me to join the project updates list.",
+          "US StockSelector combines public company data, valuation, quality, momentum, and market context into a daily research dashboard. It presents ranked candidates alongside data quality and investability checks so each result can be examined in context. Email me to join a free list for daily or weekly updates and ticker recommendations.",
         purpose:
           "A ranking is more useful when its inputs and limits are easy to inspect. US StockSelector brings the underlying research, market setting, and data checks into the same daily view.",
         highlights: [
@@ -530,14 +530,14 @@ export const site = {
           "Visible data-health and investability checks",
         ],
         involvement:
-          "Email me to join the updates list and hear about the research workflow as it develops.",
+          "Email me to join the free subscription list for daily or weekly research updates and ticker recommendations.",
         alt: "US StockSelector daily overview dashboard and market environment gauge",
       },
       zh: {
         title: "US StockSelector",
         line: "美股筛选，先看依据，再看排名。",
         summary:
-          "US StockSelector 每天汇总公开公司数据，结合估值、企业质量、动量和市场环境整理候选股票。看板也会显示数据是否完整、股票是否符合基本交易条件，方便回头核对每只股票为什么进入名单。想收到项目更新，可以给我发邮件。",
+          "US StockSelector 每天汇总公开公司数据，结合估值、企业质量、动量和市场环境整理候选股票。看板也会显示数据是否完整、股票是否符合基本交易条件，方便回头核对每只股票为什么进入名单。想免费收到每日或每周的研究更新和候选股票推荐，发邮件给我即可加入订阅名单。",
         purpose:
           "我希望筛选结果不只是一个分数。把数据来源、市场环境和检查结果放在同一页，才更容易判断一只股票值不值得继续研究。",
         highlights: [
@@ -545,7 +545,7 @@ export const site = {
           "结合估值、企业质量、动量和市场环境",
           "能查看数据完整性与交易条件检查",
         ],
-        involvement: "想关注项目进展，可以发邮件给我，加入更新邮件列表。",
+        involvement: "想免费收到每日或每周的研究更新和候选股票推荐？发邮件给我，加入订阅名单。",
         alt: "US StockSelector 每日总览看板和市场环境仪表图",
       },
     },
@@ -567,8 +567,8 @@ export const site = {
       },
       actions: [
         {
-          en: "Join project updates",
-          zh: "订阅项目进展",
+          en: "Join free stock updates",
+          zh: "免费订阅股票更新",
           url: "mailto:websterwangai@gmail.com?subject=A-share%20StockSelector%20updates",
           primary: true,
         },
@@ -577,7 +577,7 @@ export const site = {
         title: "A-share StockSelector",
         line: "China market research built around A-share realities.",
         summary:
-          "A-share StockSelector researches the CSI 800 universe using China-oriented market data and a Chinese-language dashboard. Its scoring and review flow accounts for local conditions such as suspensions and price limits, making the evidence behind a candidate easier to inspect. Email me to join project updates.",
+          "A-share StockSelector researches the CSI 800 universe using China-oriented market data and a Chinese-language dashboard. Its scoring and review flow accounts for local conditions such as suspensions and price limits, making the evidence behind a candidate easier to inspect. Email me to join a free list for daily or weekly updates and ticker recommendations.",
         purpose:
           "A-share research needs to reflect the way the local market actually works. This tool keeps China-specific data, trading conditions, and candidate evidence together in one review flow.",
         highlights: [
@@ -586,14 +586,14 @@ export const site = {
           "Checks for suspensions and price-limit conditions",
         ],
         involvement:
-          "Email me to join the project updates list and follow the research workflow as it evolves.",
+          "Email me to join the free subscription list for daily or weekly research updates and ticker recommendations.",
         alt: "A-share StockSelector Chinese dashboard with market status and candidate overview",
       },
       zh: {
         title: "A-share StockSelector",
         line: "筛 A 股，也要懂 A 股的规则。",
         summary:
-          "A-share StockSelector 以中证 800 成分股为研究范围，结合中国市场的数据和交易规则制作中文看板。筛选时会把停牌、涨跌停等情况考虑进去，也能看到候选股票的相关依据。想了解后续进展，可以发邮件加入更新列表。",
+          "A-share StockSelector 以中证 800 成分股为研究范围，结合中国市场的数据和交易规则制作中文看板。筛选时会把停牌、涨跌停等情况考虑进去，也能看到候选股票的相关依据。想免费收到每日或每周的研究更新和候选股票推荐，发邮件给我即可加入订阅名单。",
         purpose:
           "A 股的交易规则会直接影响股票能不能买卖。研究候选名单时，应该把这些限制和筛选依据一起看。",
         highlights: [
@@ -601,7 +601,7 @@ export const site = {
           "中文看板，展示候选股票的筛选依据",
           "考虑停牌、涨跌停等交易限制",
         ],
-        involvement: "想关注项目进展，可以发邮件给我，加入更新邮件列表。",
+        involvement: "想免费收到每日或每周的研究更新和候选股票推荐？发邮件给我，加入订阅名单。",
         alt: "A-share StockSelector 中文看板，展示市场状态和候选股票概览",
       },
     },
@@ -621,35 +621,42 @@ export const site = {
         en: ["AI agents", "Orchestration"],
         zh: ["AI 智能体", "任务编排"],
       },
+      installCommand: "dsh plugin --profile web add dsh-swarm-orchestrator",
       actions: [
         {
-          en: "View and install",
-          zh: "查看项目并安装",
-          url: "https://github.com/linkbag/dsh-swarm-orchestrator",
+          en: "Get it on npm",
+          zh: "前往 npm 安装",
+          url: "https://www.npmjs.com/package/dsh-swarm-orchestrator",
           primary: true,
+        },
+        {
+          en: "View source",
+          zh: "查看源码",
+          url: "https://github.com/linkbag/dsh-swarm-orchestrator",
+          primary: false,
         },
       ],
       en: {
-        title: "DSH-AI-Swarm",
+        title: "DSH Swarm Orchestrator",
         line: "One goal. A visible team of AI agents.",
         summary:
-          "DSH-AI-Swarm turns a goal into a coordinated task graph inside DeepSeek Harness. Role-specific agents can work in parallel, pass through review gates, and show their progress on a live board. The project has recorded roughly 6,000 downloads in a recent month, according to the owner-reported figure.",
+          "DSH Swarm Orchestrator turns a goal into a coordinated task graph inside DeepSeek Harness. Role-specific agents work in parallel where dependencies allow, pass through review gates, and show their progress on a live board. Published on npm as dsh-swarm-orchestrator, it recorded roughly 6,000 downloads in a recent month, according to the owner-reported figure.",
         purpose:
-          "Complex work benefits from clear roles, visible progress, and a review step. DSH-AI-Swarm makes that coordination part of the agent workflow inside DeepSeek Harness.",
+          "Complex work benefits from clear roles, visible progress, and a review step. DSH Swarm Orchestrator makes that coordination part of the agent workflow inside DeepSeek Harness.",
         highlights: [
           "Task graphs with parallel work where dependencies allow",
           "Role-specific models and review gates",
           "Live board and flow view for progress",
         ],
         involvement:
-          "Install the open source plugin, try it on a real goal, and share feedback or issues through the repository.",
-        alt: "DSH-AI-Swarm flow board with parallel agent tasks and review stages",
+          "Install the published npm package into your DeepSeek Harness web profile with the command below, then restart dsh web. Try it on a real goal and share feedback through the repository.",
+        alt: "DSH Swarm Orchestrator flow board with parallel agent tasks and review stages",
       },
       zh: {
-        title: "DSH-AI-Swarm",
+        title: "DSH Swarm Orchestrator",
         line: "多个 AI 智能体一起干活，谁在做什么一眼看清。",
         summary:
-          "DSH-AI-Swarm 是 DeepSeek Harness 的开源插件。给它一个目标，它会拆成有先后关系的任务，交给不同角色的智能体并行推进；看板能看到每一步的进度和审核情况。根据我提供的数据，最近一个月下载量约 6,000 次。",
+          "DSH Swarm Orchestrator 是 DeepSeek Harness 的开源任务编排插件，在 npm 上的包名是 dsh-swarm-orchestrator。给它一个目标，它会拆出有先后关系的任务，让不同角色的智能体分工推进；看板上能看到进度和审核结果。根据我提供的数据，最近一个月下载量约 6,000 次。",
         purpose:
           "多智能体一起做复杂任务，最怕分工和进度说不清。这个插件把任务、依赖关系和审核步骤都摆到明处。",
         highlights: [
@@ -658,8 +665,8 @@ export const site = {
           "用看板和流程图跟踪进度",
         ],
         involvement:
-          "可以从 GitHub 安装插件，拿自己的项目试试。遇到问题或有改进建议，欢迎在仓库里留言。",
-        alt: "DSH-AI-Swarm 流程看板，展示并行任务和审核阶段",
+          "用下面这条命令把 npm 上的插件装进 DeepSeek Harness 的 web 配置，重启 dsh web 后就能试用。遇到问题或有改进建议，欢迎到 GitHub 留言。",
+        alt: "DSH Swarm Orchestrator 流程看板，展示并行任务和审核阶段",
       },
     },
     {

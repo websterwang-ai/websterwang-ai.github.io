@@ -1273,10 +1273,35 @@ p {
 .detail-involve h2 {
   margin-top: 18px;
 }
-.detail-involve p:last-child {
+.detail-involve > div:first-child > p:not(.eyebrow) {
   color: #afbbaf;
   font-size: 16px;
   margin-bottom: 0;
+}
+.detail-install {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 25px;
+}
+.detail-install span {
+  color: var(--lime);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+}
+.detail-install code {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  padding: 14px 18px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.045);
+  color: #e9f1e5;
+  font-size: 13px;
+  white-space: nowrap;
 }
 .detail-actions {
   display: flex;
