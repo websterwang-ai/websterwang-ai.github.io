@@ -56,7 +56,7 @@ export const site = {
       contact: "联系",
       explore: "浏览作品",
       heroEyebrow: "WEBSTER WANG / 个人作品集",
-      heroTitle: "敢想。敢做。<em>做出来。</em>",
+      heroTitle: "敢想，敢做，<em>敢担当</em>",
       heroLead: "我做学习工具、临床研究工具，也在折腾股票研究和 AI 智能体。",
       heroAside: "想到新点子，就想动手试试。",
       artLearn: "学习",
