@@ -135,7 +135,7 @@ function home(lang) {
   </main>${footer(lang)}`;
   return shell(
     lang,
-    `${site.name} — ${lang === "en" ? "Ideas into useful things" : "把想法做成能用的东西"}`,
+    `${site.name} — ${lang === "en" ? "I dream. I build. I ship." : "敢想。敢做。做出来。"}`,
     ui.heroLead,
     localizedPath(lang),
     body,
@@ -153,7 +153,7 @@ function detail(project, lang) {
     <div class="detail-visual-wrap">${media(project, lang, "detail")}<div class="visual-caption"><span>${h(ui.screenshot)} / ${h(copy.title)}</span><span>${h(project.metric[lang])}</span></div></div>
     <div class="detail-intro"><p class="detail-intro-label">01 / ${h(ui.detailPurpose)}</p><p>${h(copy.summary)}</p></div>
     <div class="detail-columns"><section class="detail-panel"><p class="eyebrow">02 / ${h(ui.detailPurpose)}</p><h2>${h(ui.detailPurpose)}</h2><p>${h(copy.purpose)}</p></section><section class="detail-panel"><p class="eyebrow">03 / ${h(ui.detailHighlights)}</p><h2>${h(ui.detailHighlights)}</h2><ul>${copy.highlights.map((item) => `<li><span class="list-mark" aria-hidden="true">↗</span>${h(item)}</li>`).join("")}</ul></section></div>
-    <section class="detail-involve"><div><p class="eyebrow">04 / ${h(ui.detailInvolve)}</p><h2>${h(ui.detailInvolve)}</h2><p>${h(copy.involvement)}</p></div><div class="detail-actions">${project.actions.map((action) => actionLink(action, lang, action.primary ? "button button-primary" : "button button-secondary")).join("")}</div></section>
+    <section class="detail-involve"><div><p class="eyebrow">04 / ${h(ui.detailInvolve)}</p><h2>${h(ui.detailInvolve)}</h2><p>${h(copy.involvement)}</p>${project.installCommand ? `<div class="detail-install"><span>${lang === "en" ? "INSTALL FROM NPM" : "从 NPM 安装"}</span><code>${h(project.installCommand)}</code></div>` : ""}</div><div class="detail-actions">${project.actions.map((action) => actionLink(action, lang, action.primary ? "button button-primary" : "button button-secondary")).join("")}</div></section>
     <a class="next-project" href="${localizedPath(lang, next.slug)}"><span class="eyebrow">${h(ui.detailNext)} / ${h(next.index)}</span><span class="next-project-title">${h(next[lang].title)} <span aria-hidden="true">↗</span></span><span>${h(next[lang].line)}</span></a>
   </div></main>${footer(lang)}`;
   return shell(
