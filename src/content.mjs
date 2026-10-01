@@ -2,7 +2,7 @@ export const site = {
   name: "Webster Wang",
   email: "websterwangai@gmail.com",
   github: "https://github.com/linkbag",
-  url: "https://linkbag.github.io",
+  url: "https://websterwang-ai.github.io",
   ui: {
     en: {
       work: "Work",

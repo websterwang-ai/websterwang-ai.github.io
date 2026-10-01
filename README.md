@@ -1,6 +1,6 @@
 # Webster Wang — personal website
 
-A bilingual static portfolio for GitHub Pages at `https://linkbag.github.io`.
+A bilingual static portfolio for GitHub Pages at `https://websterwang-ai.github.io`.
 
 ## Update content
 
@@ -28,6 +28,6 @@ Open `http://localhost:8765/` and `http://localhost:8765/zh/`.
 
 In repository **Settings → Pages**, set **Build and deployment → Deploy from a branch**, branch **main**, folder **/docs**. The `.nojekyll` file is generated automatically.
 
-The project uses root-relative paths because it is designed for the account site `linkbag.github.io`. If moved to a project subpath, the route and asset prefixes need to be adjusted.
+The project uses root-relative paths because it is designed for the account site `websterwang-ai.github.io`. If moved to a project subpath, the route and asset prefixes need to be adjusted.
 
 Audience and download figures are owner-reported as of September 2026. Update them in `src/content.mjs` when they change.
