@@ -10,7 +10,7 @@ export const site = {
       contact: "Contact",
       explore: "Explore the work",
       heroEyebrow: "WEBSTER WANG / PERSONAL PORTFOLIO",
-      heroTitle: "I dream. I build. <em>I ship.</em>",
+      heroTitle: "I dream. I build. <em>I deliver.</em>",
       heroLead:
         "I build tools for learning, life sciences, personal finance, and teams of AI agents.",
       heroAside: "Curiosity is the common thread.",

@@ -135,7 +135,7 @@ function home(lang) {
   </main>${footer(lang)}`;
   return shell(
     lang,
-    `${site.name} — ${lang === "en" ? "I dream. I build. I ship." : "敢想。敢做。做出来。"}`,
+    `${site.name} — ${lang === "en" ? "I dream. I build. I deliver." : "敢想。敢做。做出来。"}`,
     ui.heroLead,
     localizedPath(lang),
     body,
