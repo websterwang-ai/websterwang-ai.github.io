@@ -10,7 +10,7 @@ export const site = {
       contact: "Contact",
       explore: "Explore the work",
       heroEyebrow: "WEBSTER WANG / PERSONAL PORTFOLIO",
-      heroTitle: "I dream. I build. <em>I deliver.</em>",
+      heroTitle: "Dream Big, Build Fast, <em>Ship Quality</em>",
       heroLead:
         "I build tools for learning, life sciences, personal finance, and teams of AI agents.",
       heroAside: "Curiosity is the common thread.",
@@ -57,7 +57,7 @@ export const site = {
       explore: "浏览作品",
       heroEyebrow: "WEBSTER WANG / 个人作品集",
       heroTitle: "敢想，敢做，<em>敢担当</em>",
-      heroLead: "我做学习工具、临床研究工具，也在折腾股票研究和 AI 智能体。",
+      heroLead: "我捯饬提高工作学习效率的工具，入世股票研究，出世游戏人生",
       heroAside: "想到新点子，就想动手试试。",
       artLearn: "学习",
       artBuild: "动手",
