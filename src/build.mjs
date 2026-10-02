@@ -61,6 +61,11 @@ function actionLink(action, lang, className = "button button-primary") {
 function media(project, lang, context = "card") {
   const copy = project[lang];
   const cls = `${context}-media media-${project.media} accent-${project.color}`;
+  if (context === "detail" && project.video) {
+    const videoLabel = lang === "en" ? "video demonstration" : "视频演示";
+    const fallback = lang === "en" ? "Watch the NeuroAxis video" : "观看 NeuroAxis 视频";
+    return `<div class="${cls} media-video"><video controls playsinline preload="metadata" poster="${h(project.image[lang])}" aria-label="${h(copy.title)} ${videoLabel}"><source src="${h(project.video.src)}" type="video/mp4"><a href="${h(project.video.src)}">${fallback}</a></video></div>`;
+  }
   if (project.media === "abstract") {
     return `<div class="${cls}" role="img" aria-label="${h(copy.alt)}"><div class="game-art"><span class="game-orbit game-orbit-one"></span><span class="game-orbit game-orbit-two"></span><span class="game-block game-block-one"></span><span class="game-block game-block-two"></span><span class="game-block game-block-three"></span><span class="game-art-label">PLAY / 001</span></div></div>`;
   }
@@ -150,7 +155,7 @@ function detail(project, lang) {
     site.projects[(site.projects.indexOf(project) + 1) % site.projects.length];
   const body = `${header(lang)}<main id="main" class="detail-page"><div class="shell"><div class="detail-top"><a class="back-link" href="${localizedPath(lang)}#work"><span aria-hidden="true">←</span>${h(ui.detailBack)}</a><span class="detail-counter">${h(project.index)} / ${String(site.projects.length).padStart(2, "0")}</span></div>
     <header class="detail-header"><p class="eyebrow"><span class="eyebrow-mark"></span>${h(categoryName(project.category, lang))} <span class="detail-separator">/</span> ${h(project.status[lang])}</p><h1>${h(copy.title)}</h1><p class="detail-tagline">${h(copy.line)}</p><div class="detail-tags">${project.tags[lang].map((tag) => `<span>${h(tag)}</span>`).join("")}</div></header>
-    <div class="detail-visual-wrap">${media(project, lang, "detail")}<div class="visual-caption"><span>${h(ui.screenshot)} / ${h(copy.title)}</span><span>${h(project.metric[lang])}</span></div></div>
+    <div class="detail-visual-wrap">${media(project, lang, "detail")}<div class="visual-caption"><span>${project.video ? (lang === "en" ? "VIDEO DEMO" : "操作演示") : h(ui.screenshot)} / ${h(copy.title)}</span><span>${project.video ? h(project.video.duration) : h(project.metric[lang])}</span></div></div>
     <div class="detail-intro"><p class="detail-intro-label">01 / ${h(ui.detailPurpose)}</p><p>${h(copy.summary)}</p></div>
     <div class="detail-columns"><section class="detail-panel"><p class="eyebrow">02 / ${h(ui.detailPurpose)}</p><h2>${h(ui.detailPurpose)}</h2><p>${h(copy.purpose)}</p></section><section class="detail-panel"><p class="eyebrow">03 / ${h(ui.detailHighlights)}</p><h2>${h(ui.detailHighlights)}</h2><ul>${copy.highlights.map((item) => `<li><span class="list-mark" aria-hidden="true">↗</span>${h(item)}</li>`).join("")}</ul></section></div>
     <section class="detail-involve"><div><p class="eyebrow">04 / ${h(ui.detailInvolve)}</p><h2>${h(ui.detailInvolve)}</h2><p>${h(copy.involvement)}</p>${project.installCommand ? `<div class="detail-install"><span>${lang === "en" ? "INSTALL FROM NPM" : "从 NPM 安装"}</span><code>${h(project.installCommand)}</code></div>` : ""}</div><div class="detail-actions">${project.actions.map((action) => actionLink(action, lang, action.primary ? "button button-primary" : "button button-secondary")).join("")}</div></section>

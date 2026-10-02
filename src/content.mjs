@@ -329,6 +329,10 @@ export const site = {
         en: "/assets/media/neuroaxis.png",
         zh: "/assets/media/neuroaxis.png",
       },
+      video: {
+        src: "/assets/media/neuroaxis-demo.mp4",
+        duration: "00:35",
+      },
       status: { en: "AVAILABLE ON REQUEST", zh: "可联系获取" },
       metric: { en: "3D + 2D atlas", zh: "三维模型 + 二维切面" },
       tags: {

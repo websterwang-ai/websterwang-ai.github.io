@@ -1146,6 +1146,19 @@ p {
   object-fit: cover;
   object-position: center top;
 }
+.detail-media.media-video {
+  width: 100%;
+  height: auto;
+  min-height: 0;
+  aspect-ratio: 1216 / 720;
+  background: #080d0f;
+}
+.detail-media.media-video video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
 .detail-media.media-phone .phone-stage img {
   max-width: 36%;
   height: 90%;
