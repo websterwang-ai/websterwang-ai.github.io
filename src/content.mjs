@@ -95,11 +95,11 @@ export const site = {
   },
   categories: [
     {
-      id: "published",
-      en: "Published websites & apps",
-      zh: "已上线网站与应用",
-      noteEn: "Out in the world",
-      noteZh: "已经有人在用",
+      id: "biopharma",
+      en: "Biopharma",
+      zh: "生物医药",
+      noteEn: "Evidence in context",
+      noteZh: "选中心，多看几份依据",
     },
     {
       id: "learning",
@@ -107,13 +107,6 @@ export const site = {
       zh: "学习工具",
       noteEn: "Make knowledge tangible",
       noteZh: "换个方式学",
-    },
-    {
-      id: "biopharma",
-      en: "Biopharma",
-      zh: "生物医药",
-      noteEn: "Evidence in context",
-      noteZh: "选中心，多看几份依据",
     },
     {
       id: "finance",
@@ -128,6 +121,13 @@ export const site = {
       zh: "AI 智能体协作",
       noteEn: "Teams that can be seen",
       noteZh: "谁在做什么，一眼看清",
+    },
+    {
+      id: "published",
+      en: "Published websites & apps",
+      zh: "已上线网站与应用",
+      noteEn: "Out in the world",
+      noteZh: "已经有人在用",
     },
     {
       id: "next",
