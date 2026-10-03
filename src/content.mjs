@@ -333,7 +333,7 @@ export const site = {
         src: "/assets/media/neuroaxis-demo.mp4",
         duration: "00:35",
       },
-      status: { en: "AVAILABLE ON REQUEST", zh: "可联系获取" },
+      status: { en: "LIVE WEBSITE", zh: "已上线" },
       metric: { en: "3D + 2D atlas", zh: "三维模型 + 二维切面" },
       tags: {
         en: ["Neuroanatomy", "Interactive atlas"],
@@ -341,9 +341,9 @@ export const site = {
       },
       actions: [
         {
-          en: "Request installation package",
-          zh: "索取安装包",
-          url: "mailto:websterwangai@gmail.com?subject=NeuroAxis%20installation%20package",
+          en: "Open live NeuroAxis",
+          zh: "在线体验 NeuroAxis",
+          url: "https://linkbag.github.io/neuroaxis-atlas/",
           primary: true,
         },
         {
@@ -357,7 +357,7 @@ export const site = {
         title: "NeuroAxis",
         line: "Explore the brain from structure to function.",
         summary:
-          "NeuroAxis is an interactive 3D neuroanatomy learning tool. Select structures in the model, follow synchronized 2D sections, and connect anatomy with clinical syndromes and reference notes. A free installation package is available on request, with an online version planned.",
+          "NeuroAxis is a completely free, browser-based 3D neuroanatomy atlas. Select structures in the model, follow synchronized 2D sections, and connect anatomy with clinical syndromes and reference notes. The public tool is live, with anatomy and imagery refinements underway.",
         purpose:
           "Neuroanatomy becomes easier to reason about when the spatial model, sectional view, and clinical context can be explored together. NeuroAxis brings those views into one workspace.",
         highlights: [
@@ -366,14 +366,14 @@ export const site = {
           "Clinical syndromes and structure-level reference notes",
         ],
         involvement:
-          "Request the free installation package, explore the public source, and share feedback on the structures or learning flows that matter most to you.",
+          "Try the live atlas for free, explore the public source, and share feedback or collaboration ideas as I refine the anatomy and imagery.",
         alt: "NeuroAxis 3D brain atlas with selected putamen and synchronized section",
       },
       zh: {
         title: "NeuroAxis",
         line: "三维模型和二维切面，对着看才更明白。",
         summary:
-          "NeuroAxis 是一款免费的交互式神经解剖学习工具。你可以点选三维模型中的结构，对照同步的二维切面，再结合临床综合征和参考资料理解它们。安装包可邮件索取，网页版还在计划中。",
+          "NeuroAxis 是一款完全免费、可直接在浏览器中使用的三维神经解剖图谱。你可以点选模型中的结构，对照同步的二维切面，再结合临床综合征和参考资料理解它们。网页版现已开放，解剖内容与影像仍在持续完善。",
         purpose:
           "只看平面图，很难在脑中拼出完整结构。NeuroAxis 把三维模型、切面和临床线索放在一起，方便来回对照。",
         highlights: [
@@ -382,7 +382,7 @@ export const site = {
           "结合临床综合征和参考资料学习",
         ],
         involvement:
-          "想试用可以给我发邮件索取免费安装包。源码也已公开，欢迎告诉我哪些结构或功能最值得改进。",
+          "欢迎免费体验在线图谱、查看公开源码，并分享反馈或合作想法；解剖内容与影像仍在持续完善。",
         alt: "NeuroAxis 三维脑图谱，展示选中的壳核和同步切面",
       },
     },
