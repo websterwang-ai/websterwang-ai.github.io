@@ -99,7 +99,7 @@ export const site = {
       en: "Biopharma",
       zh: "生物医药",
       noteEn: "Evidence in context",
-      noteZh: "选中心，多看几份依据",
+      noteZh: "让证据支持研发与战略",
     },
     {
       id: "learning",
@@ -441,9 +441,87 @@ export const site = {
       },
     },
     {
-      slug: "siteselection",
+      slug: "aperture",
       category: "biopharma",
       index: "06",
+      color: "blue",
+      media: "screen",
+      image: {
+        en: "/assets/aperture/aperture-introduction-poster.png",
+        zh: "/assets/aperture/aperture-introduction-poster.png",
+      },
+      video: {
+        src: "/assets/aperture/aperture-introduction.mp4",
+        duration: "1:21",
+        width: 1920,
+        height: 1080,
+        preload: "none",
+        captions: [
+          { lang: "en", label: "English", src: "/assets/aperture/aperture-introduction.en.vtt" },
+          { lang: "zh-CN", label: "中文", src: "/assets/aperture/aperture-introduction.zh-CN.vtt" },
+        ],
+        credit: {
+          title: "Simplicity",
+          artist: "Scott Buckley",
+          url: "https://www.scottbuckley.com.au/library/simplicity/",
+          license: "CC BY 4.0",
+          licenseUrl: "https://creativecommons.org/licenses/by/4.0/",
+          details: "/assets/aperture/aperture-introduction-credits.txt",
+        },
+      },
+      status: { en: "PRODUCT DEMO", zh: "产品演示" },
+      metric: { en: "AI consultant team · 81-second tour", zh: "AI 顾问团队 · 81 秒导览" },
+      tags: {
+        en: ["Competitive intelligence", "Biopharma strategy", "AI consultant team"],
+        zh: ["竞争情报", "生物医药战略", "AI 顾问团队"],
+      },
+      actions: [
+        {
+          en: "Request a demo",
+          zh: "预约产品演示",
+          url: "mailto:websterwangai@gmail.com?subject=Aperture%20demo",
+          primary: true,
+        },
+      ],
+      en: {
+        title: "Aperture",
+        line: "Your AI consultant team, embedded in competitive intelligence.",
+        summary:
+          "Aperture helps biopharma teams turn a research question into an evidence-linked competitive landscape. Define the scope with a Chief of Staff, approve the task card, and let a dedicated project Associate retrieve, process and organize the data. This 81-second tour follows elranatamab in fourth-line and later relapsed/refractory multiple myeloma.",
+        purpose:
+          "Competitive intelligence combines a clear brief, reliable sources and repeated refinement. Aperture connects those steps in one workspace, so teams can steer the work through conversation and inspect the evidence behind the results.",
+        highlights: [
+          "Conversational scoping, task approval and a dedicated project Associate",
+          "Public sources such as ClinicalTrials.gov, plus permitted private inputs and data reformatting",
+          "Discovery assets, source-linked clinical trial timelines and automatically calculated relevance rankings",
+          "Follow-up research and refinements within the existing project",
+        ],
+        involvement:
+          "Watch the product tour, then contact me to discuss a demo or a research workflow. The film uses a selected public-data example; the application is available for demonstration rather than as a public hosted service.",
+        alt: "Aperture competitive intelligence workspace with an elranatamab reference and discovery assets",
+      },
+      zh: {
+        title: "Aperture",
+        line: "把 AI 顾问团队，嵌入竞争情报工作流。",
+        summary:
+          "Aperture 帮助生物医药团队把研究问题整理成有来源可追溯的竞争格局。先与 Chief of Staff（项目统筹）明确范围、确认任务卡，再由专属项目 Associate（研究顾问）检索、处理并组织数据。这段 81 秒导览以 elranatamab 为参照，展示四线及以后复发/难治性多发性骨髓瘤的研究案例。",
+        purpose:
+          "竞争情报需要明确问题、整合来源，并不断修订。Aperture 把这些步骤连接在同一个工作区，让团队通过对话推动研究，也能查看结果背后的证据。",
+        highlights: [
+          "通过对话明确范围、确认任务，并交给专属项目顾问推进",
+          "使用 ClinicalTrials.gov 等公开来源，也支持经授权的私有输入与数据格式整理",
+          "展示候选资产、来源关联的临床试验时间线与自动计算的竞争相关性排名",
+          "在原项目内继续追问、补充研究和修订结果",
+        ],
+        involvement:
+          "欢迎观看产品导览，并联系我讨论演示或具体研究流程。视频采用精选公开数据案例；目前可预约演示，并非公开托管的在线服务。",
+        alt: "Aperture 竞争情报工作区，展示以 elranatamab 为参照的候选资产",
+      },
+    },
+    {
+      slug: "siteselection",
+      category: "biopharma",
+      index: "07",
       color: "blue",
       media: "screen",
       image: {
@@ -500,7 +578,7 @@ export const site = {
     {
       slug: "us-stockselector",
       category: "finance",
-      index: "07",
+      index: "08",
       color: "lime",
       media: "screen",
       image: {
@@ -556,7 +634,7 @@ export const site = {
     {
       slug: "a-share-stockselector",
       category: "finance",
-      index: "08",
+      index: "09",
       color: "orange",
       media: "screen",
       image: {
@@ -612,7 +690,7 @@ export const site = {
     {
       slug: "dsh-ai-swarm",
       category: "ai",
-      index: "09",
+      index: "10",
       color: "lime",
       media: "screen",
       image: {
@@ -676,7 +754,7 @@ export const site = {
     {
       slug: "indie-games",
       category: "next",
-      index: "10",
+      index: "11",
       color: "violet",
       media: "abstract",
       image: null,
