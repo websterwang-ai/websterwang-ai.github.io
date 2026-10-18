@@ -63,8 +63,10 @@ function media(project, lang, context = "card") {
   const cls = `${context}-media media-${project.media} accent-${project.color}`;
   if (context === "detail" && project.video) {
     const videoLabel = lang === "en" ? "video demonstration" : "视频演示";
-    const fallback = lang === "en" ? "Watch the NeuroAxis video" : "观看 NeuroAxis 视频";
-    return `<div class="${cls} media-video"><video controls playsinline preload="metadata" poster="${h(project.image[lang])}" aria-label="${h(copy.title)} ${videoLabel}"><source src="${h(project.video.src)}" type="video/mp4"><a href="${h(project.video.src)}">${fallback}</a></video></div>`;
+    const fallback = lang === "en" ? `Watch the ${copy.title} video` : `观看 ${copy.title} 视频`;
+    const ratio = project.video.width && project.video.height ? ` style="aspect-ratio:${Number(project.video.width)} / ${Number(project.video.height)}"` : "";
+    const tracks = (project.video.captions ?? []).map((track) => `<track kind="captions" src="${h(track.src)}" srclang="${h(track.lang)}" label="${h(track.label)}"${track.lang === (lang === "zh" ? "zh-CN" : "en") ? " default" : ""}>`).join("");
+    return `<div class="${cls} media-video"${ratio}><video id="project-video" controls playsinline preload="${h(project.video.preload ?? "metadata")}" poster="${h(project.image[lang])}" aria-label="${h(copy.title)} ${videoLabel}"><source src="${h(project.video.src)}" type="video/mp4">${tracks}<a href="${h(project.video.src)}">${h(fallback)}</a></video></div>`;
   }
   if (project.media === "abstract") {
     return `<div class="${cls}" role="img" aria-label="${h(copy.alt)}"><div class="game-art"><span class="game-orbit game-orbit-one"></span><span class="game-orbit game-orbit-two"></span><span class="game-block game-block-one"></span><span class="game-block game-block-two"></span><span class="game-block game-block-three"></span><span class="game-art-label">PLAY / 001</span></div></div>`;
@@ -72,7 +74,13 @@ function media(project, lang, context = "card") {
   if (project.media === "phone") {
     return `<div class="${cls}"><div class="phone-stage"><img class="phone-back" src="${project.imageSecondary}" alt="" loading="${context === "detail" ? "eager" : "lazy"}" decoding="async"><img class="phone-front" src="${project.image[lang]}" alt="${h(copy.alt)}" loading="${context === "detail" ? "eager" : "lazy"}" decoding="async"></div></div>`;
   }
-  return `<div class="${cls}"><img src="${h(project.image[lang])}" alt="${h(copy.alt)}" loading="${context === "detail" ? "eager" : "lazy"}" decoding="async"></div>`;
+  return `<div class="${cls}"><img src="${h(project.image[lang])}" alt="${h(copy.alt)}" loading="${context === "detail" ? "eager" : "lazy"}" decoding="async">${context === "card" && project.video ? `<span class="video-badge" aria-hidden="true">▶ ${h(project.video.duration)}</span>` : ""}</div>`;
+}
+
+function videoNotes(project, lang) {
+  if (!project.video?.credit) return "";
+  const credit = project.video.credit;
+  return `<div class="video-notes"><p>${lang === "en" ? "English narration · English and Chinese captions available in the player." : "英文旁白 · 播放器支持中英文字幕。"} <a href="${h(project.video.src)}" download>${lang === "en" ? "Download video" : "下载视频"}</a></p><p>${lang === "en" ? "Music:" : "配乐："} <a href="${h(credit.url)}" target="_blank" rel="noopener noreferrer">${h(credit.title)}</a> ${lang === "en" ? "by" : "—"} ${h(credit.artist)} · <a href="${h(credit.licenseUrl)}" target="_blank" rel="noopener noreferrer">${h(credit.license)}</a> · ${lang === "en" ? "Excerpted and mixed for this video." : "已为本片节选并混音。"} <a href="${h(credit.details)}">${lang === "en" ? "Full credits" : "完整署名"}</a></p></div>`;
 }
 
 function card(project, lang) {
@@ -81,7 +89,7 @@ function card(project, lang) {
   return `<article class="project-card accent-${project.color}">
     <a class="project-card-link" href="${localizedPath(lang, project.slug)}" aria-label="${h(ui.viewProject)}: ${h(copy.title)}">
       ${media(project, lang)}
-      <div class="card-body"><div class="card-meta"><span class="status-dot"></span><span>${h(project.status[lang])}</span><span class="card-index">${h(project.index)} / 10</span></div>
+      <div class="card-body"><div class="card-meta"><span class="status-dot"></span><span>${h(project.status[lang])}</span><span class="card-index">${h(project.index)} / ${String(site.projects.length).padStart(2, "0")}</span></div>
       <div class="card-title-row"><h3>${h(copy.title)}</h3><span class="card-arrow" aria-hidden="true">↗</span></div>
       <p class="card-line">${h(copy.line)}</p><div class="card-foot"><span class="card-metric">${h(project.metric[lang])}</span><span class="card-view">${h(ui.viewProject)} <span aria-hidden="true">→</span></span></div></div>
     </a>
@@ -155,7 +163,7 @@ function detail(project, lang) {
     site.projects[(site.projects.indexOf(project) + 1) % site.projects.length];
   const body = `${header(lang)}<main id="main" class="detail-page"><div class="shell"><div class="detail-top"><a class="back-link" href="${localizedPath(lang)}#work"><span aria-hidden="true">←</span>${h(ui.detailBack)}</a><span class="detail-counter">${h(project.index)} / ${String(site.projects.length).padStart(2, "0")}</span></div>
     <header class="detail-header"><p class="eyebrow"><span class="eyebrow-mark"></span>${h(categoryName(project.category, lang))} <span class="detail-separator">/</span> ${h(project.status[lang])}</p><h1>${h(copy.title)}</h1><p class="detail-tagline">${h(copy.line)}</p><div class="detail-tags">${project.tags[lang].map((tag) => `<span>${h(tag)}</span>`).join("")}</div></header>
-    <div class="detail-visual-wrap">${media(project, lang, "detail")}<div class="visual-caption"><span>${project.video ? (lang === "en" ? "VIDEO DEMO" : "操作演示") : h(ui.screenshot)} / ${h(copy.title)}</span><span>${project.video ? h(project.video.duration) : h(project.metric[lang])}</span></div></div>
+    <div class="detail-visual-wrap">${media(project, lang, "detail")}<div class="visual-caption"><span>${project.video ? (lang === "en" ? "VIDEO DEMO" : "操作演示") : h(ui.screenshot)} / ${h(copy.title)}</span><span>${project.video ? h(project.video.duration) : h(project.metric[lang])}</span></div>${videoNotes(project, lang)}</div>
     <div class="detail-intro"><p class="detail-intro-label">01 / ${h(ui.detailPurpose)}</p><p>${h(copy.summary)}</p></div>
     <div class="detail-columns"><section class="detail-panel"><p class="eyebrow">02 / ${h(ui.detailPurpose)}</p><h2>${h(ui.detailPurpose)}</h2><p>${h(copy.purpose)}</p></section><section class="detail-panel"><p class="eyebrow">03 / ${h(ui.detailHighlights)}</p><h2>${h(ui.detailHighlights)}</h2><ul>${copy.highlights.map((item) => `<li><span class="list-mark" aria-hidden="true">↗</span>${h(item)}</li>`).join("")}</ul></section></div>
     <section class="detail-involve"><div><p class="eyebrow">04 / ${h(ui.detailInvolve)}</p><h2>${h(ui.detailInvolve)}</h2><p>${h(copy.involvement)}</p>${project.installCommand ? `<div class="detail-install"><span>${lang === "en" ? "INSTALL FROM NPM" : "从 NPM 安装"}</span><code>${h(project.installCommand)}</code></div>` : ""}</div><div class="detail-actions">${project.actions.map((action) => actionLink(action, lang, action.primary ? "button button-primary" : "button button-secondary")).join("")}</div></section>
