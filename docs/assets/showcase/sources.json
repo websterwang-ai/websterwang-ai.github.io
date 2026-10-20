@@ -1,0 +1,326 @@
+{
+  "format": "WebP",
+  "quality": 88,
+  "method": 6,
+  "exports": [
+    {
+      "file": "aperture-timeline.webp",
+      "source": "Aperture approved public-data demo captures / 09-timeline.png",
+      "source_sha256": "ab8a12998b11618135cfb3eda0fe3b3142ec9eef94f99b640deac34c1025d12e",
+      "source_dimensions": [
+        1265,
+        712
+      ],
+      "crop_ltrb": null,
+      "dimensions": [
+        1265,
+        712
+      ],
+      "source_bytes": 69287,
+      "bytes": 43008,
+      "sha256": "920652d7997539cb8490c68db3594d7ca4c3909bbd48660051b07312a6e1c492"
+    },
+    {
+      "file": "aperture-home.webp",
+      "source": "Aperture approved public-data demo captures / 01-home.png",
+      "source_sha256": "c7cf4d651a8c7754f49d59eca9a6640707e2472f7477b8977fee75ea06afda2a",
+      "source_dimensions": [
+        1265,
+        712
+      ],
+      "crop_ltrb": null,
+      "dimensions": [
+        1265,
+        712
+      ],
+      "source_bytes": 81242,
+      "bytes": 54970,
+      "sha256": "557fe8c33cc3268513b0b7eca7b6407567413830a5ff5ff9b99f0701e241ca9b"
+    },
+    {
+      "file": "aperture-discovery.webp",
+      "source": "Aperture approved public-data demo captures / 07-discovery-assets.png",
+      "source_sha256": "1c9d319bc56b58621b7880461e882ca881c2d42616aba16cdd80bbdd156719c3",
+      "source_dimensions": [
+        1265,
+        712
+      ],
+      "crop_ltrb": null,
+      "dimensions": [
+        1265,
+        712
+      ],
+      "source_bytes": 77866,
+      "bytes": 55402,
+      "sha256": "1640b68ad11a02245ca5186dc3c3720ab0e86dec0a68702cd1e32d8e2baa5d0a"
+    },
+    {
+      "file": "aperture-relevance.webp",
+      "source": "Aperture approved public-data demo captures / 12-relevance-table.png",
+      "source_sha256": "8984a238aa03b88aae30d6d8bfd8b94888ea7e068cd9d311ce4f0673f87914ef",
+      "source_dimensions": [
+        1265,
+        712
+      ],
+      "crop_ltrb": null,
+      "dimensions": [
+        1265,
+        712
+      ],
+      "source_bytes": 93006,
+      "bytes": 67592,
+      "sha256": "c508652391360b9b98879f901616cc1337ac6a42c97e945617a7355d421b12fc"
+    },
+    {
+      "file": "peervine-en.webp",
+      "source": "assets/media/peervine-en.png",
+      "source_sha256": "d647bbf3faa58227c6ec9414356a58bf06a0ad34796282a62c4b8290a2c04a90",
+      "source_dimensions": [
+        2553,
+        1392
+      ],
+      "crop_ltrb": null,
+      "dimensions": [
+        1400,
+        763
+      ],
+      "source_bytes": 589330,
+      "bytes": 51096,
+      "sha256": "187a8262da886fe3cce29938907b4cb852ecb9943759643ce329b128946611cd"
+    },
+    {
+      "file": "peervine-zh.webp",
+      "source": "assets/media/peervine-zh.png",
+      "source_sha256": "8e9b8ad1b52a334a543274816b2af164d05db976503d75f1dbb5943a489c24bd",
+      "source_dimensions": [
+        2046,
+        1315
+      ],
+      "crop_ltrb": null,
+      "dimensions": [
+        1400,
+        900
+      ],
+      "source_bytes": 432446,
+      "bytes": 55858,
+      "sha256": "feca327045e3569491646cf522de3f154f31bb653c50ec3f90c0e34893d7b063"
+    },
+    {
+      "file": "gradchoice-en.webp",
+      "source": "assets/media/gradchoice-en.png",
+      "source_sha256": "7dbce7b048c3c057fbe7ef4a02dd721c74c88b916748fa28e0ac040b36918d79",
+      "source_dimensions": [
+        2524,
+        1383
+      ],
+      "crop_ltrb": null,
+      "dimensions": [
+        1400,
+        767
+      ],
+      "source_bytes": 337775,
+      "bytes": 43242,
+      "sha256": "8c91b6d103d6e59526750dd66f4c69ff0b45738309e67560388e866e45e7329e"
+    },
+    {
+      "file": "gradchoice-zh.webp",
+      "source": "assets/media/gradchoice-zh.png",
+      "source_sha256": "b28f9b015004038a89b95bb4c6381c8541365eb42c9ec9ece2aa57a83488cad2",
+      "source_dimensions": [
+        2514,
+        1380
+      ],
+      "crop_ltrb": null,
+      "dimensions": [
+        1400,
+        768
+      ],
+      "source_bytes": 321762,
+      "bytes": 34034,
+      "sha256": "ad66d28d4828ec2ffc7264ed2c00a77ddebf90b3b32b54f344687f3ae4017a71"
+    },
+    {
+      "file": "neuroaxis.webp",
+      "source": "assets/media/neuroaxis.png",
+      "source_sha256": "8084431a46f4ab5270408e6e00eaddfbbf6b2790dc319f4612e25aacb4370786",
+      "source_dimensions": [
+        2538,
+        1384
+      ],
+      "crop_ltrb": null,
+      "dimensions": [
+        1400,
+        763
+      ],
+      "source_bytes": 1585953,
+      "bytes": 146448,
+      "sha256": "aadf36db89043e49e530ea9a9d28cc909b63fad6c6f9e26abcc93e9e0af3c4ae"
+    },
+    {
+      "file": "diffusionatlas.webp",
+      "source": "assets/media/diffusionatlas.png",
+      "source_sha256": "43faa90d9bade9da4017a1da506e3ae50d708239660bd9619cf647ba30da6f9a",
+      "source_dimensions": [
+        2514,
+        1359
+      ],
+      "crop_ltrb": null,
+      "dimensions": [
+        1400,
+        757
+      ],
+      "source_bytes": 1597005,
+      "bytes": 79810,
+      "sha256": "580d2e57ec38c3dc360e2e3edb1e955657865e923986eb14906e0c422305ac8e"
+    },
+    {
+      "file": "us-stockselector.webp",
+      "source": "assets/media/us-stockselector.png",
+      "source_sha256": "9c5d35cdd35f5179ebdd69dcc338b8310798c3227b8f17744173761f9afa66b0",
+      "source_dimensions": [
+        2536,
+        1368
+      ],
+      "crop_ltrb": null,
+      "dimensions": [
+        1400,
+        755
+      ],
+      "source_bytes": 303287,
+      "bytes": 52270,
+      "sha256": "53ad14cfa9cbe264149e113aa6722b5e2c8dffc2eef996260b587de3c6fc9170"
+    },
+    {
+      "file": "ashare-stockselector.webp",
+      "source": "assets/media/ashare-stockselector.png",
+      "source_sha256": "eb9cabaa0e052ac75618ee7625228bcb9d8458ed6b3be31974b06bad8fc78a4b",
+      "source_dimensions": [
+        2502,
+        1380
+      ],
+      "crop_ltrb": [
+        440,
+        60,
+        2502,
+        1380
+      ],
+      "dimensions": [
+        1400,
+        896
+      ],
+      "source_bytes": 522271,
+      "bytes": 93870,
+      "sha256": "fa805b37b13ccc2f7513d2bffae7078c4d2c3698d0835f45b4a8c656304ca683"
+    },
+    {
+      "file": "dsh-ai-swarm.webp",
+      "source": "assets/media/dsh-ai-swarm.png",
+      "source_sha256": "15b075f36080f4615d4fb83d913a435a75237bff78a287db5822ed53f9b4da06",
+      "source_dimensions": [
+        2094,
+        1129
+      ],
+      "crop_ltrb": [
+        0,
+        128,
+        1585,
+        1129
+      ],
+      "dimensions": [
+        1400,
+        884
+      ],
+      "source_bytes": 245722,
+      "bytes": 45868,
+      "sha256": "4944d20aab6c8ff63aa40d124c7555e705dedb18abb494d5923a40e10b050d2c"
+    },
+    {
+      "file": "tap-lookup.webp",
+      "source": "assets/media/tap-lookup.jpg",
+      "source_sha256": "7f1e949f21c044be1f924ed9bcc27eb0670d2d9b238365ef82a3b405b22c1e1b",
+      "source_dimensions": [
+        1080,
+        2400
+      ],
+      "crop_ltrb": null,
+      "dimensions": [
+        720,
+        1600
+      ],
+      "source_bytes": 494995,
+      "bytes": 67400,
+      "sha256": "c9ecb02a19ca35e9b79aa34d487a99daaf284f4dc96194b703d00bcb6082dc46"
+    },
+    {
+      "file": "tap-example.webp",
+      "source": "assets/media/tap-example.jpg",
+      "source_sha256": "09cd9c89a24cd69a01d813fccf977b8507ab1fc5a9ea830f40b1b8ab26d2f3c4",
+      "source_dimensions": [
+        1080,
+        2400
+      ],
+      "crop_ltrb": null,
+      "dimensions": [
+        720,
+        1600
+      ],
+      "source_bytes": 379114,
+      "bytes": 51354,
+      "sha256": "3b0997f9f01940948483bc045c40a1f2dbbf1880f134d6ed55fa4591a403155c"
+    },
+    {
+      "file": "tap-flashcard.webp",
+      "source": "Tap to Learn approved store screenshots / 1000038724.jpg",
+      "source_sha256": "4486ac0c9db000213256ca7855e0215f16b2dce44f1e3e6444c24ae94f805856",
+      "source_dimensions": [
+        1080,
+        2400
+      ],
+      "crop_ltrb": null,
+      "dimensions": [
+        720,
+        1600
+      ],
+      "source_bytes": 264495,
+      "bytes": 23990,
+      "sha256": "8d9822f7d5e5d63d0d9f622a858f2dc5763f0ce3a22b15ecb4f93d3fd4237426"
+    },
+    {
+      "file": "tap-quiz.webp",
+      "source": "Tap to Learn approved store screenshots / 1000038728.jpg",
+      "source_sha256": "21f615b0f275075506dd3efe102efbb7a9fc3160573a28aa3cada84b2d14504f",
+      "source_dimensions": [
+        1080,
+        2400
+      ],
+      "crop_ltrb": null,
+      "dimensions": [
+        720,
+        1600
+      ],
+      "source_bytes": 359709,
+      "bytes": 41478,
+      "sha256": "32e18de8d7b167fc6a1a9a635b3c2ee0646bd75e0341b0c4190e2ccc5edd194c"
+    },
+    {
+      "file": "siteselection-demo.webp",
+      "source": "Site Atlas isolated client-only illustrative preview / siteselection-preview.jpg",
+      "source_sha256": "96bfdbc83b229f01c85eea1002ec76d038a9b4e4a068649d0d78a1e4f47d8e6f",
+      "source_dimensions": [
+        1585,
+        991
+      ],
+      "crop_ltrb": null,
+      "dimensions": [
+        1400,
+        875
+      ],
+      "source_bytes": 148439,
+      "bytes": 68722,
+      "sha256": "755f1f78a42b35a62e7fc49ddf304db8e571f085a0d1ea2e1d8895fd1f9558b7",
+      "quality": 82,
+      "method": 6,
+      "note": "Five hand-authored illustrative sites; sample performance metrics; no DQS imports or persisted workspace. Captured from original UI in an isolated client-only harness. Visible OpenStreetMap attribution retained."
+    }
+  ]
+}

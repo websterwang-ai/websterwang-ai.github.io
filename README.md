@@ -4,7 +4,11 @@ A bilingual static portfolio for GitHub Pages at `https://websterwang-ai.github.
 
 ## Update content
 
-Edit `src/content.mjs`. Each project contains English and Chinese copy, thumbnail paths, status, and actions. Add or replace screenshots under `assets/media/`.
+Edit `src/content.mjs` for English and Chinese project descriptions, status, metrics, and actions. Edit `src/presentation.mjs` for the homepage presentation, optimized covers, and screenshot galleries. Each gallery image includes intrinsic dimensions and a caption in both languages.
+
+The design uses a warm paper and charcoal palette, self-hosted Inter and Instrument Serif fonts, and real product screenshots. The homepage previews can be switched manually, and project screenshots open in a keyboard-accessible image viewer. There is no autoplay or third-party analytics.
+
+Add optimized screenshots under `assets/showcase/`. Record their source, crop, and any limitations in its `README.md` and `sources.json`. The SiteSelection image uses clearly labeled illustrative data. Original screenshots, video files, captions, and credits remain under `assets/media/`. Font licenses are included under `assets/fonts/`.
 
 Run:
 
@@ -31,3 +35,5 @@ In repository **Settings → Pages**, set **Build and deployment → Deploy from
 The project uses root-relative paths because it is designed for the account site `websterwang-ai.github.io`. If moved to a project subpath, the route and asset prefixes need to be adjusted.
 
 Audience and download figures are owner-reported as of September 2026. Update them in `src/content.mjs` when they change.
+
+When reviewing a design change, inspect both languages at desktop and phone widths. Check project filters, preview tabs, navigation, the image viewer, and existing video/caption controls before publishing.
