@@ -56,3 +56,14 @@ The November 2026 film uses the public IDeate-Lung01 showcase in Aperture 2.1. T
 | aperture-copilot-cohorts.webp | 1265 x 712 | 46,238 | Aperture 2.1 copilot film frame / recorded answer table and illustrated patient counts |
 | aperture-copilot-source.webp | 1265 x 712 | 76,644 | Aperture 2.1 public showcase capture / IDeate-Lung01 readout and source passage |
 | aperture-copilot-brief.webp | 1265 x 712 | 70,380 | Aperture 2.1 public showcase capture / analyst-reviewed brief opened in exported HTML |
+
+## Aperture product tour
+
+These browser captures follow the public multiple myeloma example in Aperture 2.1. The copilot and reviewed brief are enlarged for readability.
+
+| File | Pixels | Bytes | Source |
+| --- | --- | ---: | --- |
+| aperture-tour-timeline.webp | 1265 x 712 | 53,612 | Trial timelines for the myeloma project, grouped by tumor target |
+| aperture-tour-landscape.webp | 1265 x 712 | 38,046 | Four programs in the target-grouped landscape matrix |
+| aperture-tour-copilot.webp | 1265 x 712 | 99,156 | Molecular lens and the actual project-aware Ask response |
+| aperture-tour-brief.webp | 1265 x 712 | 65,338 | Reviewed brief in the exported interactive HTML dashboard |

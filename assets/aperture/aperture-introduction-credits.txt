@@ -1,12 +1,19 @@
-Aperture AI Copilot  |  Which number makes the brief?
+Aperture | A competitive intelligence product tour
 
-Recorded in Aperture 2.1 using the public ES-SCLC showcase. The film uses excerpts from live Ask and Edit interactions. The off-screen wait for the model has been shortened. The reviewed brief includes an analyst edit. Diagrams illustrate the reported patient counts.
+Recorded in Aperture 2.1 using a dedicated project built from public multiple myeloma research. The consultant proposed the plan, saved the project and imported study records. The target comparison is an excerpt from a live Ask interaction. An analyst curated the FDA and publication benchmarks, registry milestones, and final brief for the tour. Waiting time is shortened. Enlarged details appear beside actual workbench captures. The closing slides come from the application's native editable PowerPoint export.
 
-Study sources
-Rudin et al. Ifinatamab Deruxtecan in Patients With Extensive-Stage Small Cell Lung Cancer: Primary Analysis of the Phase II IDeate-Lung01 Trial. Journal of Clinical Oncology. PMID 41086386.
-https://pubmed.ncbi.nlm.nih.gov/41086386/
-IDeate-Lung01 sponsor cohort table at WCLC 2025, September 7, 2025.
-https://www.merck.com/news/ifinatamab-deruxtecan-demonstrated-clinically-meaningful-response-rates-in-patients-with-extensive-stage-small-cell-lung-cancer-in-ideate-lung01-phase-2-trial/
+Selected trial records
+MagnetisMM-3 — https://clinicaltrials.gov/study/NCT04649359
+MajesTEC-1 — https://clinicaltrials.gov/study/NCT04557098 and https://clinicaltrials.gov/study/NCT03145181
+LINKER-MM1 — https://clinicaltrials.gov/study/NCT03761108
+MonumenTAL-1 — https://clinicaltrials.gov/study/NCT04634552 and https://clinicaltrials.gov/study/NCT03399799
+
+Selected clinical sources
+FDA summary of the MagnetisMM-3 efficacy population — https://www.fda.gov/drugs/cancer-approvals/fda-grants-accelerated-approval-elranatamab-bcmm-multiple-myeloma
+Lesokhin et al., Nature Medicine, MagnetisMM-3 — https://www.nature.com/articles/s41591-023-02528-9
+Moreau et al., New England Journal of Medicine, MajesTEC-1 — https://pubmed.ncbi.nlm.nih.gov/35661166/
+FDA summary of LINKER-MM1 — https://www.fda.gov/drugs/cancer-approvals/fda-grants-accelerated-approval-linvoseltamab-gcpt-relapsed-or-refractory-multiple-myeloma
+FDA summary of MonumenTAL-1 — https://www.fda.gov/drugs/cancer-approvals/fda-grants-accelerated-approval-talquetamab-tgvs-relapsed-or-refractory-multiple-myeloma
 
 English narration uses the Microsoft Andrew Multilingual neural voice.
 Music: "Simplicity" by Scott Buckley, used under CC BY 4.0.

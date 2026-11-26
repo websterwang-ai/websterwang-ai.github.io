@@ -1,88 +1,124 @@
 WEBVTT
 
-00:00:00.480 --> 00:00:04.173
-One lung cancer study
-reports two response rates.
+00:00:00.480 --> 00:00:05.421
+Meet Aperture, a competitive intelligence
+workspace for biopharma teams.
 
-00:00:04.353 --> 00:00:07.350
-Which one belongs in a
-competitive intelligence brief?
+00:00:05.601 --> 00:00:09.706
+Let’s follow one question from the first
+research brief to a strategy meeting.
 
-00:00:08.297 --> 00:00:11.805
-In Aperture, an analyst can
-start with the number itself.
+00:00:10.630 --> 00:00:14.371
+Suppose your team works on
+elranatamab in multiple myeloma.
 
-00:00:11.985 --> 00:00:14.373
-Select a result in the benchmark table,
+00:00:14.551 --> 00:00:19.606
+Which other bispecific antibodies should you
+track in the fourth-line setting and beyond?
 
-00:00:14.373 --> 00:00:17.202
-then switch the AI copilot to Ask.
+00:00:20.547 --> 00:00:21.873
+Start in Ask mode.
 
-00:00:18.130 --> 00:00:20.652
-The selected cell travels
-with the question.
+00:00:21.873 --> 00:00:26.922
+The AI consultant proposes competitors,
+trials, and sources to check.
 
-00:00:20.832 --> 00:00:24.149
-Here, the analyst asks
-which figure to lead with,
+00:00:27.102 --> 00:00:29.597
+You narrow the shortlist to three rivals,
 
-00:00:24.149 --> 00:00:26.152
-who it covers, and where it came from.
+00:00:29.597 --> 00:00:31.830
+then switch to Edit to build the landscape.
 
-00:00:27.088 --> 00:00:29.534
-The copilot finds both groups.
+00:00:32.755 --> 00:00:35.779
+The studies come in
+from ClinicalTrials.gov.
 
-00:00:29.534 --> 00:00:32.997
-Across all 137 patients at this dose,
+00:00:35.779 --> 00:00:39.367
+Each registry record keeps its
+identifier and source link.
 
-00:00:32.997 --> 00:00:36.582
-the confirmed response
-rate was 48.2 percent.
+00:00:39.547 --> 00:00:42.985
+Open a study to check its
+design, enrollment, and dates.
 
-00:00:36.762 --> 00:00:42.325
-The 56.3 percent figure comes from the
-32 patients treated in second line.
+00:00:43.922 --> 00:00:46.204
+Now the team can see the field.
 
-00:00:42.325 --> 00:00:45.397
-Those patients are already
-included in the larger group.
+00:00:46.204 --> 00:00:49.838
+The landscape places each
+program at its development stage.
 
-00:00:46.338 --> 00:00:50.532
-Before using the answer, the analyst
-opens the underlying readout.
+00:00:50.018 --> 00:00:52.830
+Group by target, and a difference emerges.
 
-00:00:50.712 --> 00:00:54.357
-The saved passage puts the
-rate beside its denominator,
+00:00:52.830 --> 00:00:56.000
+Three drugs share a target.
+One takes another route.
 
-00:00:54.357 --> 00:00:55.906
-with a link back to the study.
+00:00:56.922 --> 00:01:00.534
+Switch to the timeline to
+see which trials overlap
 
-00:00:56.838 --> 00:01:00.726
-A follow-up in Edit mode changes
-the comparison table itself.
+00:01:00.534 --> 00:01:02.567
+and when their primary
+endpoints are expected.
 
-00:01:00.906 --> 00:01:03.636
-The analyst asks for four measures.
+00:01:02.747 --> 00:01:07.560
+The catalyst calendar collects the milestones
+worth bringing to the next team review.
 
-00:01:03.636 --> 00:01:08.182
-Aperture applies the change and
-records it, with an option to undo.
+00:01:08.505 --> 00:01:11.448
+In Benchmarks, open a response result
 
-00:01:09.130 --> 00:01:11.751
-The analyst saves the answer as a brief,
+00:01:11.448 --> 00:01:14.789
+to see which patients it describes
+and where it was reported.
 
-00:01:11.751 --> 00:01:15.241
-checks the wording, and keeps
-the two populations explicit.
+00:01:14.969 --> 00:01:18.859
+That context matters when the trials
+enrolled different populations.
 
-00:01:15.421 --> 00:01:18.939
-Once reviewed, the brief can
-travel with the shared dashboard.
+00:01:19.797 --> 00:01:21.867
+Which rival deserves a closer look?
 
-00:01:19.880 --> 00:01:21.821
-The next reader gets the number,
+00:01:21.867 --> 00:01:23.915
+On the overview, change the lens.
 
-00:01:21.821 --> 00:01:24.843
-the patients it describes,
-and the source to check.
+00:01:24.095 --> 00:01:27.437
+Market entry, enrollment,
+and molecular similarity
+
+00:01:27.437 --> 00:01:29.470
+each give you a ranking with reasons.
+
+00:01:30.380 --> 00:01:33.263
+Now ask the copilot why
+one rival sits apart.
+
+00:01:33.443 --> 00:01:38.591
+It identifies talquetamab
+as the one targeting GPRC5D.
+
+00:01:38.591 --> 00:01:41.718
+The other three target BCMA.
+
+00:01:41.898 --> 00:01:44.310
+That gives the team a sharper follow-up.
+
+00:01:44.310 --> 00:01:47.850
+What evidence do we have
+after prior BCMA therapy?
+
+00:01:48.797 --> 00:01:51.981
+Save the answer as a
+brief, review its wording,
+
+00:01:51.981 --> 00:01:53.301
+and share it with the dashboard.
+
+00:01:53.481 --> 00:01:57.763
+For the strategy meeting, export the
+landscape as an editable PowerPoint.
+
+00:01:58.713 --> 00:02:01.835
+Aperture. Clinical strategy, in focus.

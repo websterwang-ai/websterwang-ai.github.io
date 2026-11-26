@@ -447,18 +447,18 @@ export const site = {
       color: "blue",
       media: "screen",
       image: {
-        en: "/assets/aperture/aperture-introduction-poster.png?v=copilot21",
-        zh: "/assets/aperture/aperture-introduction-poster.png?v=copilot21",
+        en: "/assets/aperture/aperture-introduction-poster.png?v=tour21",
+        zh: "/assets/aperture/aperture-introduction-poster.png?v=tour21",
       },
       video: {
-        src: "/assets/aperture/aperture-introduction.mp4?v=copilot21",
-        duration: "1:26",
+        src: "/assets/aperture/aperture-introduction.mp4?v=tour21",
+        duration: "2:02",
         width: 1920,
         height: 1080,
         preload: "none",
         captions: [
-          { lang: "en", label: "English", src: "/assets/aperture/aperture-introduction.en.vtt?v=copilot21" },
-          { lang: "zh-CN", label: "中文", src: "/assets/aperture/aperture-introduction.zh-CN.vtt?v=copilot21" },
+          { lang: "en", label: "English", src: "/assets/aperture/aperture-introduction.en.vtt?v=tour21" },
+          { lang: "zh-CN", label: "中文", src: "/assets/aperture/aperture-introduction.zh-CN.vtt?v=tour21" },
         ],
         credit: {
           title: "Simplicity",
@@ -466,11 +466,11 @@ export const site = {
           url: "https://www.scottbuckley.com.au/library/simplicity/",
           license: "CC BY 4.0",
           licenseUrl: "https://creativecommons.org/licenses/by/4.0/",
-          details: "/assets/aperture/aperture-introduction-credits.txt",
+          details: "/assets/aperture/aperture-introduction-credits.txt?v=tour21",
         },
       },
       status: { en: "PRODUCT DEMO", zh: "产品演示" },
-      metric: { en: "AI copilot · 86-second demo", zh: "AI 研究助手 · 86 秒演示" },
+      metric: { en: "Competitive intelligence · 2-minute tour", zh: "竞争情报 · 两分钟产品导览" },
       tags: {
         en: ["Competitive intelligence", "Biopharma strategy", "AI copilot"],
         zh: ["竞争情报", "生物医药战略", "AI 研究助手"],
@@ -485,37 +485,37 @@ export const site = {
       ],
       en: {
         title: "Aperture",
-        line: "An AI copilot for the questions behind a competitive brief.",
+        line: "Map a competitive landscape and follow the evidence behind each program.",
         summary:
-          "One lung cancer study reports two response rates. Which should lead the brief? In this 86-second film, an analyst uses Aperture’s copilot to identify who each result describes, check the original study passage, and share a reviewed answer with the team.",
+          "Which bispecific antibodies should a myeloma team track alongside elranatamab? Follow an analyst from the first question through a source-linked landscape, trial timelines, clinical benchmarks, and a PowerPoint for the strategy meeting.",
         purpose:
-          "A response rate can travel from a study into a strategy deck long after its patient population has dropped out of view. Aperture keeps the cohort, the result and its sources together as analysts compare programs and prepare a brief.",
+          "A strategy team needs to know which rivals matter, what evidence supports the comparison, and what to investigate next. Aperture keeps those decisions in one workspace, with an AI consultant available as the questions change.",
         highlights: [
-          "Ask about a specific benchmark cell and compare the full dose group with its second-line subset",
-          "Open the saved readout to check the supporting passage and study citation",
-          "Use Edit mode to choose four benchmark measures and inspect the change receipt",
-          "Save the copilot’s answer, review the wording, and include the brief in a shareable HTML dashboard",
+          "Brief the AI consultant, review its proposed scope, and build a shortlist around a reference drug",
+          "Group programs by target, compare trial timelines, and track milestones on the catalyst calendar",
+          "Inspect the patient population behind a benchmark and rank rivals by market entry, enrollment, or molecular similarity",
+          "Ask the copilot about a target difference, review the answer, and share the work as a dashboard or editable PowerPoint",
         ],
         involvement:
-          "The film uses published IDeate-Lung01 results in the Aperture 2.1 workbench. Contact me for a demonstration around a competitive intelligence question your team is working on.",
-        alt: "Aperture’s clinical benchmarks beside the AI copilot’s receipt for a four-measure comparison",
+          "The tour uses Aperture 2.1 and public multiple myeloma studies. Contact me for a demonstration around a competitive intelligence question your team is working on.",
+        alt: "Aperture’s trial timeline for four multiple myeloma bispecific antibodies, grouped by target",
       },
       zh: {
         title: "Aperture",
-        line: "在竞争情报简报中，用 AI 助手追溯每个数字的依据。",
+        line: "梳理竞争格局，追溯每个项目背后的研究证据。",
         summary:
-          "同一项肺癌研究报告了两个缓解率，简报该采用哪一个？在这段 86 秒的演示中，分析师用 Aperture 的 AI 助手厘清两个结果各自对应的患者人群，核对研究原文，再把复核后的答案分享给团队。",
+          "以 elranatamab 为参照，多发性骨髓瘤团队还应该关注哪些双特异性抗体？这段导览从分析师的第一个问题讲起，依次展示有来源可查的竞争格局、试验时间轴、临床基准，以及策略会议使用的 PowerPoint。",
         purpose:
-          "研究结果被写进策略简报时，读者往往只看到一个缓解率，很难知道它描述的是哪群患者。Aperture 把队列、结果和来源放在一起，方便分析师在比较项目和撰写简报时随时核查。",
+          "做策略研究，团队需要判断哪些竞品值得关注、比较的依据是什么、下一步该查什么。Aperture 把这些工作放进同一个工作台，分析师也可以随时向 AI 顾问追问。",
         highlights: [
-          "选中基准表中的一个数字，向助手询问整个剂量组和二线治疗亚组的区别",
-          "打开已保存的研究结果，核对原文与文献出处",
-          "在编辑模式下指定四项比较指标，并查看可撤销的修改记录",
-          "将回答保存为简报，复核措辞，再随 HTML 看板一起分享",
+          "向 AI 顾问交代任务，审阅研究范围，围绕参照药物建立竞品清单",
+          "按靶点查看竞争格局，对照试验时间轴，在催化事件日历中跟踪里程碑",
+          "核查临床结果对应的患者人群，从市场进入、患者招募或分子相似性三个角度排列竞品",
+          "请助手解释靶点差异，复核回答，分享看板或导出可编辑的 PowerPoint",
         ],
         involvement:
-          "本片在 Aperture 2.1 工作台中使用 IDeate-Lung01 的公开研究结果。欢迎联系我，围绕你团队正在研究的竞争情报问题预约演示。",
-        alt: "Aperture 临床基准表与 AI 助手的修改记录，展示已调整的四项比较指标",
+          "本片在 Aperture 2.1 中使用多发性骨髓瘤的公开研究资料。欢迎联系我，围绕你团队正在研究的竞争情报问题预约演示。",
+        alt: "Aperture 试验时间轴按靶点展示四款多发性骨髓瘤双特异性抗体的研究",
       },
     },
     {

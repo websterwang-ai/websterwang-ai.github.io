@@ -53,11 +53,12 @@ export const visuals = {
     }],
   },
   aperture: {
-    cover: bilingual(image("aperture-copilot-edit")),
+    cover: bilingual(image("aperture-tour-timeline")),
     gallery: [
-      shot("aperture-copilot-cohorts", "The copilot separates the full dose group from the second-line subset.", "AI 助手区分了整个剂量组和二线治疗亚组。"),
-      shot("aperture-copilot-source", "Inspect the study passage behind the reported response rate.", "核查缓解率对应的研究原文。"),
-      shot("aperture-copilot-brief", "The shared dashboard carries the analyst-reviewed brief and its study links.", "共享看板保留了复核后的简报和研究链接。"),
+      shot("aperture-tour-landscape", "The landscape groups elranatamab and three rivals by tumor target and development stage.", "竞争格局图按肿瘤靶点和开发阶段展示 elranatamab 及其三个竞品。"),
+      shot("aperture-tour-timeline", "Trial bars align the registry dates for the programs under review.", "试验时间轴将各项目的注册日期并列展示。"),
+      shot("aperture-tour-copilot", "A follow-up asks which drug targets a different antigen and what the team should investigate next.", "分析师追问哪款药物靶向不同抗原，以及团队下一步应该研究什么。"),
+      shot("aperture-tour-brief", "The exported dashboard includes the reviewed brief and links back to the studies.", "导出的看板保留了已复核的简报和研究链接。"),
     ],
   },
   siteselection: {cover:bilingual(image("siteselection-demo"))},

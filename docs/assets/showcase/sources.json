@@ -477,6 +477,94 @@
       "source_bytes": 284550,
       "bytes": 70380,
       "sha256": "3b4ea5d96116b15cc7fcd11c9e53e706e2c4c288a1ae6c5933ff27af04eb497d"
+    },
+    {
+      "file": "aperture-tour-timeline.webp",
+      "source": "Aperture 2.1 product tour / Trial timelines for the myeloma project, grouped by tumor target",
+      "source_sha256": "9f81414b82801a661ea5069357ed36b5238641a55449b514765e4b11b3c05d61",
+      "source_dimensions": [
+        2220,
+        1305
+      ],
+      "crop_ltrb": [
+        0,
+        0,
+        2220,
+        1249
+      ],
+      "dimensions": [
+        1265,
+        712
+      ],
+      "source_bytes": 214560,
+      "bytes": 53612,
+      "sha256": "594ec88bc2e1718e74ec9a8cc8295f43dca27711988466fbcd88b1f2cd0052f9"
+    },
+    {
+      "file": "aperture-tour-landscape.webp",
+      "source": "Aperture 2.1 product tour / Four programs in the target-grouped landscape matrix",
+      "source_sha256": "34c47870cfe373bf2364af835582f049fb238ca71a89e5126fa8416209124acd",
+      "source_dimensions": [
+        2220,
+        1305
+      ],
+      "crop_ltrb": [
+        0,
+        0,
+        2220,
+        1249
+      ],
+      "dimensions": [
+        1265,
+        712
+      ],
+      "source_bytes": 162237,
+      "bytes": 38046,
+      "sha256": "2946006db24a453062837f99f3046569a9973ae6d139c2bfe855b89d44ee935f"
+    },
+    {
+      "file": "aperture-tour-copilot.webp",
+      "source": "Aperture 2.1 product tour / Molecular lens and the actual project-aware Ask response",
+      "source_sha256": "5f687609ce31a5c681b9497f216f7731a730935c0f4b0245c00d8730afb791be",
+      "source_dimensions": [
+        2220,
+        1305
+      ],
+      "crop_ltrb": [
+        672,
+        36,
+        2220,
+        907
+      ],
+      "dimensions": [
+        1265,
+        712
+      ],
+      "source_bytes": 365373,
+      "bytes": 99156,
+      "sha256": "657da06966e15d81863052937c620b45d1272a973cd30eca9b50d972ce7f6757"
+    },
+    {
+      "file": "aperture-tour-brief.webp",
+      "source": "Aperture 2.1 product tour / Reviewed brief in the exported interactive HTML dashboard",
+      "source_sha256": "0735704b0f2fc552fd99738489c51584351326d3833fae51654cd33c57a15bf8",
+      "source_dimensions": [
+        2220,
+        1305
+      ],
+      "crop_ltrb": [
+        319,
+        18,
+        1891,
+        903
+      ],
+      "dimensions": [
+        1265,
+        712
+      ],
+      "source_bytes": 307675,
+      "bytes": 65338,
+      "sha256": "7d14aac2d0f76b56cf7bbb6660e9e02eb65bdaf5ea7e9785a53198513bee3f3d"
     }
   ]
 }
